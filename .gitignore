@@ -1,0 +1,362 @@
+# Sea of Thieves Offline Setup Assistant - .gitignore
+
+# ==============================================================================
+# 🔐 CREDENTIALS & SENSITIVE DATA
+# ==============================================================================
+.internal/GITHUB_CREDENTIALS.md
+.internal/
+*.credentials
+*.secret
+*.key
+.env
+.env.local
+.env.production
+
+# ==============================================================================
+# 🖥️ OPERATING SYSTEM FILES
+# ==============================================================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Linux
+*~
+.nfs*
+
+# ==============================================================================
+# 🛠️ DEVELOPMENT TOOLS
+# ==============================================================================
+
+# Visual Studio
+.vs/
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains
+.idea/
+*.sln.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ==============================================================================
+# 🎮 GAME-SPECIFIC FILES
+# ==============================================================================
+
+# Sea of Thieves configuration backups
+SOT_Config_Backup_*/
+SeaOfThieves_Config_*/
+UserSettings_Backup_*/
+
+# Temporary game files
+*.tmp
+*.temp
+SeaOfThieves.log
+GameSetup.log
+InstallLog.txt
+
+# Cache directories
+Cache/
+TempCache/
+LocalCache/
+
+# ==============================================================================
+# 🔧 BUILD & COMPILATION
+# ==============================================================================
+
+# .NET
+bin/
+obj/
+out/
+*.dll
+*.exe
+!dist/*.exe
+*.pdb
+*.lib
+*.exp
+*.ilk
+
+# MSBuild
+MSBuildAllProjects
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Node.js (if using for documentation)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.eslintcache
+
+# Python (if using for scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# ==============================================================================
+# 📦 DISTRIBUTION & PACKAGING
+# ==============================================================================
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+*.xz
+!release/*.zip
+!dist/*.zip
+
+# Installation packages
+*.msi
+*.deb
+*.rpm
+*.dmg
+*.pkg
+!releases/*.msi
+!releases/*.exe
+
+# ==============================================================================
+# 📚 DOCUMENTATION BUILD
+# ==============================================================================
+
+# Jekyll (GitHub Pages)
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Sphinx
+docs/_build/
+docs/build/
+
+# GitBook
+_book/
+
+# ==============================================================================
+# 🔄 VERSION CONTROL
+# ==============================================================================
+
+# Git
+*.orig
+*.rej
+*.patch
+
+# SVN
+.svn/
+
+# Mercurial
+.hg/
+.hgignore
+
+# ==============================================================================
+# 📊 ANALYTICS & LOGS
+# ==============================================================================
+
+# Application logs
+*.log
+logs/
+log/
+*.log.*
+
+# Crash dumps
+*.dmp
+*.mdmp
+CrashDumps/
+
+# Performance profiling
+*.vsp
+*.psess
+*.vspx
+*.sap
+
+# ==============================================================================
+# 🌐 WEB & ASSETS
+# ==============================================================================
+
+# Thumbnails & previews
+thumbnails/
+previews/
+.thumbs/
+
+# Generated assets
+generated/
+auto-generated/
+
+# ==============================================================================
+# 🧪 TESTING
+# ==============================================================================
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+*.lcov
+
+# ==============================================================================
+# 📱 MOBILE & CROSS-PLATFORM
+# ==============================================================================
+
+# Xamarin
+*.apk
+*.aab
+*.ipa
+
+# Unity (if applicable)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+Assets/AssetStoreTools*
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+/[Uu]serSettings/
+
+# ==============================================================================
+# 🗄️ DATABASES & CONFIG
+# ==============================================================================
+
+# SQLite databases
+*.sqlite
+*.db
+*.db3
+
+# Configuration files with sensitive data
+appsettings.Production.json
+appsettings.Local.json
+config.production.*
+config.local.*
+
+# ==============================================================================
+# 🚀 DEPLOYMENT
+# ==============================================================================
+
+# Docker
+Dockerfile.local
+docker-compose.override.yml
+.dockerignore
+
+# Azure
+.azure/
+
+# AWS
+.aws/
+
+# ==============================================================================
+# 📝 TEMPORARY & BACKUP FILES
+# ==============================================================================
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.#*
+#*#
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+backup/
+backups/
+
+# Auto-saves
+*.autosave
+*_autosave.*
+
+# ==============================================================================
+# 🎯 PROJECT-SPECIFIC
+# ==============================================================================
+
+# Release preparation
+prepare-release/
+staging/
+pre-release/
+
+# User-specific configuration
+user-config.json
+local-settings.xml
+personal-settings.*
+
+# Development artifacts
+dev-tools/
+experimental/
+prototypes/
+
+# ==============================================================================
+# END OF .GITIGNORE
+# ==============================================================================
+
+# Note: This .gitignore is designed to be comprehensive while keeping
+# the repository clean and secure. It excludes sensitive information,
+# build artifacts, and development-specific files while preserving
+# the essential project structure and documentation. 

@@ -1,0 +1,140 @@
+# Jekyll configuration for Sea of Thieves Offline Setup Assistant Documentation
+
+# Site settings
+title: "Sea of Thieves Offline Setup Assistant"
+description: "Complete offline setup assistant for Sea of Thieves - Configure graphics, controls, and sandbox mode without Xbox login"
+baseurl: "/sea-of-thieves-offline-setup-assistant"
+url: "https://sea-of-thieves-offline-setup-assistant.github.io"
+
+# SEO settings
+author: "Sea of Thieves Offline Setup Assistant Team"
+twitter:
+  username: "sot_assistant"
+facebook:
+  app_id: 1234567890
+  publisher: 1234567890
+  admins: 1234567890
+
+# Social media
+social:
+  name: "Sea of Thieves Offline Setup Assistant"
+  links:
+    - "https://github.com/Sea-of-Thieves-Offline-Setup-Assistant"
+    - "https://twitter.com/sot_assistant"
+
+# Repository settings
+repository: "Sea-of-Thieves-Offline-Setup-Assistant/sea-of-thieves-offline-setup-assistant"
+github_username: "Sea-of-Thieves-Offline-Setup-Assistant"
+
+# Theme settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-mentions
+  - jekyll-redirect-from
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Permalink settings
+permalink: pretty
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .internal/
+
+# Collections
+collections:
+  guides:
+    output: true
+    permalink: /guides/:name/
+  api:
+    output: true
+    permalink: /api/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "SOT Assistant Team"
+  - scope:
+      path: ""
+      type: "guides"
+    values:
+      layout: "guide"
+  - scope:
+      path: ""
+      type: "api"
+    values:
+      layout: "api"
+
+# SEO and metadata
+lang: en-US
+timezone: UTC
+
+# Google Analytics
+google_analytics: UA-XXXXXXXXX-X
+
+# Search Console
+google_site_verification: "your-verification-code"
+
+# Social sharing
+twitter_cards: true
+facebook_sharing: true
+
+# Comments
+disqus:
+  shortname: "sot-assistant"
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Download"
+    url: "/download/"
+  - title: "Documentation"
+    url: "/docs/"
+  - title: "Guides"
+    url: "/guides/"
+  - title: "Support"
+    url: "/support/"
+  - title: "GitHub"
+    url: "https://github.com/Sea-of-Thieves-Offline-Setup-Assistant/sea-of-thieves-offline-setup-assistant"
+
+# Footer links
+footer_links:
+  - title: "Privacy Policy"
+    url: "/privacy/"
+  - title: "Terms of Service"
+    url: "/terms/"
+  - title: "Security"
+    url: "/security/"
+  - title: "Contributing"
+    url: "/contributing/"
+
+# Build settings
+future: false
+show_drafts: false
+unpublished: false
+
+# Liquid settings
+liquid:
+  error_mode: warn
+  strict_filters: false
+  strict_variables: false 
